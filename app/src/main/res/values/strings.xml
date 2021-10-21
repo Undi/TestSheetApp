@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestSheetApp</string>
+
+    <!--> HOME <-->
+    <string name="home_play_button">Play</string>
+
+    <!--> BOTTOM SHEET <-->
+    <string name="bottom_sheet_id_label">ID: </string>
+    <string name="bottom_sheet_userid_label">USER ID: </string>
+    <string name="bottom_sheet_title_label">TITLE: </string>
+    <string name="bottom_sheet_body_label">BODY: </string>
+    <string name="bottom_sheet_close_button">Close</string>
+</resources>

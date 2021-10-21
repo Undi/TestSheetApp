@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <ScrollView
+        android:id="@+id/contentScrollView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonClose"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/userId"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/body"
+                android:text="Dziennikarze Onetu i Business Insidera wzięli inflację na warsztat. W cyklu artykułów, które przez cały dzień publikować będziemy w naszych serwisach, postaramy się wyjaśnić, dlaczego ceny niemal wszystkich towarów i usług rosną lawinowo. Opisać konsekwencje tych zmian. Wskazać drogi wyjścia z inflacyjnej pułapki i sposoby radzenia sobie z nią na co dzień. Najświeższe z dostępnych informacji nie wróżą dobrze. Żywność nadal będzie drożeć, bo rosną koszty jej produkcji. W tyle z podwyżkami nie chce zostać też przemysł. Ceny ropy, gazu i innych surowców odbijają się na koszcie wielu finalnych produktów. Wszystko to zapowiedź podwyżek w kolejnych miesiącach. Prawdą są powtarzane wielokrotnie zapewnienia prezesa NBP mówiące o tym, że zjawisko podwyższonej inflacji ma charakter globalny. Co do zasady ceny rosną wówczas, gdy na rynku pojawia się dużo pieniądza, a potrzeby na różnego rodzaju usługi i towary zaczynają gwałtownie rosnąć. Dokładnie taki scenariusz rozegrał się we wszystkich cywilizowanych gospodarkach. Reakcją na pandemię COVID-19 było w pierwszej fazie ostre hamowanie aktywności gospodarczej i próba ratowania sytuacji poprzez emisję miliardów dolarów, euro, jenów czy złotych, po to, by ten efekt niwelować. Bankierzy centralni zeszli ze stopami procentowymi do zera (niektórzy weszli na ujemne terytorium), rządy poluzowały podatki i dodatkowo zaczęły się gigantycznie zadłużać (notabene w … bankach centralnych, które, często wbrew obowiązującym w prawie standardom, masowo ruszyły do skupowania rządowych długów, drukując puste pieniądze)."
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:background="@color/white"
+        android:layout_margin="2dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_sheet_close_button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

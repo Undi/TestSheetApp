@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#345544</item>
+    <item name="colorPrimaryDark">#555544</item>
+    <item name="colorAccent">#223388</item>
+    </style>
+
+</resources>
